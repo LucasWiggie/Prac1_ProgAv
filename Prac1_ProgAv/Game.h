@@ -1,14 +1,20 @@
 #pragma once
-#include "Teapot.h";
+#include "Teapot.h"
+#include "Cube.h"
 
 class Game
 {
 private:
 	Teapot teapot;
+	Cube cube;
 
 public:
 	inline Teapot GetTeapot() {
 		return this->teapot;
+	}
+
+	inline Cube GetCube() {
+		return this -> cube;
 	}
 
 	void Init();

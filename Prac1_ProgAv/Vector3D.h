@@ -7,11 +7,9 @@ private:
 	float coordinateZ;
 
 public:
-	Vector3D() {
-		coordinateX = 0.0;
-		coordinateY = 0.0;
-		coordinateZ = 0.0;
-	}
+	Vector3D() : coordinateX(0.0), coordinateY(0.0), coordinateZ(0.0) { }
+
+	Vector3D(float x, float y, float z) : coordinateX(x), coordinateY(y), coordinateZ(z) {}
 
 	inline float getCoordinateX() const {
 		return this->coordinateX;
