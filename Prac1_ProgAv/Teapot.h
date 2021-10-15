@@ -18,12 +18,12 @@ private:
 	
 	Vector3D coordinates;
 	Color colorCoords;
+	Vector3D orientation;
 
 	float size;
 
 public:
-	Teapot() : coordinates(),
-		colorCoords(), size(0.4) {}
+	Teapot() : coordinates(), colorCoords(), orientation(), size(0.4) {}
 
 	inline float getCoordinateX() const { 
 		return this->coordinates.getCoordinateX(); 

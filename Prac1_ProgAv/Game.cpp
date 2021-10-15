@@ -20,6 +20,7 @@ void Game::Init() {
 
 void Game::Render() {
 	this->GetTeapot().Render();
+	this->GetCube().Render();
 }
 
 void Game::Update() {
