@@ -1,0 +1,25 @@
+﻿  Game.cpp
+C:\Users\fe.rengifo.2020\Downloads\Prac1_ProgAv-main\Prac1_ProgAv\Color.h(10,7): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\fe.rengifo.2020\Downloads\Prac1_ProgAv-main\Prac1_ProgAv\Teapot.h(18,8): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\fe.rengifo.2020\Downloads\Prac1_ProgAv-main\Prac1_ProgAv\Cube.h(16,6): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\fe.rengifo.2020\Downloads\Prac1_ProgAv-main\Prac1_ProgAv\Sphere.h(19,8): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\fe.rengifo.2020\Downloads\Prac1_ProgAv-main\Prac1_ProgAv\Sphere.h(95,16): warning C4244: '=': conversión de 'const int' a 'float'; posible pérdida de datos
+C:\Users\fe.rengifo.2020\Downloads\Prac1_ProgAv-main\Prac1_ProgAv\Sphere.h(99,16): warning C4244: '=': conversión de 'const int' a 'float'; posible pérdida de datos
+  Prac1_ProgAv.cpp
+C:\Users\fe.rengifo.2020\Downloads\Prac1_ProgAv-main\Prac1_ProgAv\Color.h(10,7): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\fe.rengifo.2020\Downloads\Prac1_ProgAv-main\Prac1_ProgAv\Teapot.h(18,8): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\fe.rengifo.2020\Downloads\Prac1_ProgAv-main\Prac1_ProgAv\Cube.h(16,6): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\fe.rengifo.2020\Downloads\Prac1_ProgAv-main\Prac1_ProgAv\Sphere.h(19,8): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\fe.rengifo.2020\Downloads\Prac1_ProgAv-main\Prac1_ProgAv\Sphere.h(95,16): warning C4244: '=': conversión de 'const int' a 'float'; posible pérdida de datos
+C:\Users\fe.rengifo.2020\Downloads\Prac1_ProgAv-main\Prac1_ProgAv\Sphere.h(99,16): warning C4244: '=': conversión de 'const int' a 'float'; posible pérdida de datos
+C:\Users\fe.rengifo.2020\Downloads\Prac1_ProgAv-main\Prac1_ProgAv\Prac1_ProgAv.cpp(17,25): warning C4305: 'inicializando': truncamiento de 'double' a 'GLclampf'
+C:\Users\fe.rengifo.2020\Downloads\Prac1_ProgAv-main\Prac1_ProgAv\Prac1_ProgAv.cpp(18,27): warning C4305: 'inicializando': truncamiento de 'double' a 'GLclampf'
+  Sphere.cpp
+C:\Users\fe.rengifo.2020\Downloads\Prac1_ProgAv-main\Prac1_ProgAv\Color.h(10,7): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\fe.rengifo.2020\Downloads\Prac1_ProgAv-main\Prac1_ProgAv\Sphere.h(19,8): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\fe.rengifo.2020\Downloads\Prac1_ProgAv-main\Prac1_ProgAv\Sphere.h(95,16): warning C4244: '=': conversión de 'const int' a 'float'; posible pérdida de datos
+C:\Users\fe.rengifo.2020\Downloads\Prac1_ProgAv-main\Prac1_ProgAv\Sphere.h(99,16): warning C4244: '=': conversión de 'const int' a 'float'; posible pérdida de datos
+C:\Users\fe.rengifo.2020\Downloads\Prac1_ProgAv-main\Prac1_ProgAv\Sphere.cpp(9,23): warning C4305: 'argumento': truncamiento de 'double' a 'const float'
+C:\Users\fe.rengifo.2020\Downloads\Prac1_ProgAv-main\Prac1_ProgAv\Sphere.cpp(10,22): warning C4305: 'argumento': truncamiento de 'double' a 'const float'
+  Generando código...
+  Prac1_ProgAv.vcxproj -> C:\Users\fe.rengifo.2020\Downloads\Prac1_ProgAv-main\Prac1_ProgAv\x64\Debug\Prac1_ProgAv.exe
