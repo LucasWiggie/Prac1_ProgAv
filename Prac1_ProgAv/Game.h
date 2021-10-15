@@ -1,12 +1,13 @@
 #pragma once
 #include "Teapot.h"
 #include "Cube.h"
-
+#include "Sphere.h"
 class Game
 {
 private:
 	Teapot teapot;
 	Cube cube;
+	Sphere sphere;
 
 public:
 	inline Teapot GetTeapot() {
@@ -15,6 +16,9 @@ public:
 
 	inline Cube GetCube() {
 		return this -> cube;
+	}
+	inline Sphere GetSphere() {
+		return this->sphere;
 	}
 
 	void Init();

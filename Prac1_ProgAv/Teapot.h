@@ -6,15 +6,7 @@
 class Teapot
 {
 private:
-	/*
-	float coordinateX;
-	float coordinateY;
-	float coordinateZ;
-		
-	float redComponent;
-	float greenComponent;
-	float blueComponent;
-	*/
+	
 	
 	Vector3D coordinates;
 	Color colorCoords;
@@ -23,7 +15,7 @@ private:
 	float size;
 
 public:
-	Teapot() : coordinates(), colorCoords(), orientation(), size(0.4) {}
+	Teapot() : coordinates(), colorCoords(), orientation(), size(0.3) {}
 
 	inline float getCoordinateX() const { 
 		return this->coordinates.getCoordinateX(); 
