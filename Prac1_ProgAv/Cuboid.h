@@ -3,6 +3,7 @@
 #include "Vector3D.h"
 #include "Color.h"
 #include "Solid.h"
+
 class Cuboid : public Solid
 {
 private:
@@ -28,10 +29,10 @@ public:
 		this->length = newLength;
 	}
 	inline void setHeight(const float& newHeight) {
-		this->length = newHeight;
+		this->height = newHeight;
 	}
 	inline void setWidth(const float& newWidth) {
-		this->length = newWidth;
+		this->width = newWidth;
 	}
 
 	void Render();

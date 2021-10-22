@@ -6,8 +6,20 @@
 
 class Cube : public Solid
 {	
+private:
+	float size;
 public:
 	Cube() : Solid() {}
+	Cube(Vector3D coords, Color color, Vector3D orient, float size) : Solid(coords, color, orient), size(size) {}
+
+	inline float getSize() const {
+		return this->size;
+	}
+
+	inline void setSize(const float& newSize) {
+		this->size = newSize;
+	}
+
 	void Render();
 };
 

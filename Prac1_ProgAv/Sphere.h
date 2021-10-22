@@ -13,6 +13,7 @@ private:
 
 public:
 	Sphere() : Solid() {}
+	Sphere(Vector3D coords, Color color, Vector3D orient, double radius, int slices, int slacks) : Solid(coords, color, orient), radius(radius), slices(slices), slacks(slacks) {}
 
 	inline float getRadius() const {
 		return this->radius;
