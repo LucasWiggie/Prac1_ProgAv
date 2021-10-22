@@ -22,6 +22,7 @@ void Game::Render() {
 	this->GetTeapot().Render();
 	this->GetCube().Render();
 	this->GetSphere().Render();
+	
 }
 
 void Game::Update() {

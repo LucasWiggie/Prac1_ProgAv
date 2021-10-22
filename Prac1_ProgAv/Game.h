@@ -2,6 +2,7 @@
 #include "Teapot.h"
 #include "Cube.h"
 #include "Sphere.h"
+
 class Game
 {
 private:
@@ -17,6 +18,7 @@ public:
 	inline Cube GetCube() {
 		return this -> cube;
 	}
+
 	inline Sphere GetSphere() {
 		return this->sphere;
 	}
