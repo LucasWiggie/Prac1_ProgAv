@@ -9,10 +9,9 @@ private:
 	Color colorCoords;
 	Vector3D orientation;
 
-	float size;
-
 public:
-	Solid() : coordinates(), colorCoords(), orientation(), size(0.4){}
+	Solid() : coordinates(), colorCoords(), orientation(){}
+	Solid(Vector3D coords, Color color, Vector3D orient) : coordinates(coords), colorCoords(color), orientation(orient) {}
 
 	inline Vector3D getCoordinates() const {
 		return this->coordinates;
@@ -24,10 +23,6 @@ public:
 
 	inline Vector3D getOrientation() const {
 		return this->orientation;
-	}
-
-	inline float getSize() const {
-		return this->size;
 	}
 
 	inline void setCoordinates(Vector3D newCoordinates) {
@@ -46,10 +41,6 @@ public:
 		this->orientation.setCoordinateX(newOrientation.getCoordinateX());
 		this->orientation.setCoordinateY(newOrientation.getCoordinateY());
 		this->orientation.setCoordinateZ(newOrientation.getCoordinateZ());
-	}
-
-	inline void setSize(const float& sizeToSet) {
-		this->size = sizeToSet;
 	}
 
 	virtual void Render() = 0;
