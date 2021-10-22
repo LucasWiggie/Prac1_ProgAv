@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Color.cpp" />
     <ClCompile Include="Cube.cpp" />
+    <ClCompile Include="Cuboid.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Prac1_ProgAv.cpp" />
     <ClCompile Include="Solid.cpp" />
@@ -155,6 +156,7 @@
   <ItemGroup>
     <ClInclude Include="Color.h" />
     <ClInclude Include="Cube.h" />
+    <ClInclude Include="Cuboid.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Solid.h" />
     <ClInclude Include="Sphere.h" />

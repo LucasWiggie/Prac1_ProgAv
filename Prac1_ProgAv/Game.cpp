@@ -23,6 +23,7 @@ void Game::Render() {
 	this->GetCube().Render();
 	this->GetSphere().Render();
 	this->GetTorus().Render();
+	this->GetCuboid().Render();
 }
 
 void Game::Update() {

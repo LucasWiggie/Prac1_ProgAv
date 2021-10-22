@@ -3,6 +3,7 @@
 #include "Cube.h"
 #include "Sphere.h"
 #include "Torus.h"
+#include "Cuboid.h"
 
 class Game
 {
@@ -11,6 +12,7 @@ private:
 	Cube cube;
 	Sphere sphere;
 	Torus torus;
+	Cuboid cuboid;
 
 public:
 	inline Teapot GetTeapot() {
@@ -27,6 +29,10 @@ public:
 
 	inline Torus GetTorus() {
 		return this->torus;
+	}
+
+	inline Cuboid GetCuboid() {
+		return this->cuboid;
 	}
 
 	void Init();
