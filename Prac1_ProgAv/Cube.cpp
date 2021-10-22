@@ -2,26 +2,22 @@
 
 void Cube::Render() {
 
-	setCoordinateZ(-2);
-	setCoordinateX(0.5);
-	setCoordinateY(-0.5);
+	Vector3D newCoords = Vector3D(0.8, -0.5, -2);
+	setCoordinates(newCoords);
 
-	orientation.setCoordinateX(25);
-	orientation.setCoordinateY(200);
-	orientation.setCoordinateZ(290);
+	Vector3D newOrientation = Vector3D(25, 200, 290);
+	setOrientation(newOrientation);
 	
-	setGreenComponent(0.1);
-	setRedComponent(0.8);
+	Color newColor = Color(0.8, 0.1, 0);
+	setColor(newColor);
 
 	glPushMatrix();
-	glTranslatef(this->getCoordinateX(), this->getCoordinateY(), this->getCoordinateZ());
-	glColor3f(this->getRedComponent(), this->getGreenComponent(), this->getBlueComponent());
-
+	glTranslatef(this->getCoordinates().getCoordinateX(), this->getCoordinates().getCoordinateY(), this->getCoordinates().getCoordinateZ());
+	glColor3f(this->getColor().getRedComponent(), this->getColor().getGreenComponent(), this->getColor().getBlueComponent());
 	
-	glRotatef(orientation.getCoordinateX(), 1.0, 0.0, 0.0);
-	glRotatef(orientation.getCoordinateY(), 0.0, 1.0, 0.0);
-	glRotatef(orientation.getCoordinateZ(), 0.0, 0.0, 1.0);
-	
+	glRotatef(getOrientation().getCoordinateX(), 1.0, 0.0, 0.0);
+	glRotatef(getOrientation().getCoordinateY(), 0.0, 1.0, 0.0);
+	glRotatef(getOrientation().getCoordinateZ(), 0.0, 0.0, 1.0);
 
 	glutSolidCube(this->getSize());
 	glPopMatrix();

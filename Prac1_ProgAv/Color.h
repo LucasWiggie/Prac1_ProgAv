@@ -7,7 +7,9 @@ private:
 	float blueComponent;
 
 public:
-	Color() : redComponent(0.2), greenComponent(0.3), blueComponent(0.4) {}
+	Color() : redComponent(0.0), greenComponent(0.0), blueComponent(0.0) {}
+
+	Color(float r, float g, float b) : redComponent(r), greenComponent(g), blueComponent(b) {}
 
 	inline float getRedComponent() const {
 		return this->redComponent;
