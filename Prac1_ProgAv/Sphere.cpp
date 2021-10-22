@@ -20,7 +20,7 @@ void Sphere::Render() {
 	glRotatef(getOrientation().getCoordinateY(), 0.0, 1.0, 0.0);
 	glRotatef(getOrientation().getCoordinateZ(), 0.0, 0.0, 1.0);
 
-	glutSolidSphere(this->getRadius(), this->getSlices(), this->getSlacks());
+	glutSolidSphere(radius, slices, slacks);
 	glPopMatrix();
 
 }

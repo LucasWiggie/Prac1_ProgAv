@@ -7,7 +7,7 @@
 class Sphere : public Solid
 {
 private:
-	float radius;
+	double radius;
 	int slices;
 	int slacks;
 
