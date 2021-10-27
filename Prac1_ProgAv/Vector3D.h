@@ -34,5 +34,21 @@ public:
 	inline void setCoordinateZ(const float& coordinateZtoSet) {
 		this->coordinateZ = coordinateZtoSet;
 	}
+
+	Vector3D Add(const Vector3D& vector);
+	Vector3D Substract(const Vector3D& vector);
+	Vector3D Product(const float& value);
+	Vector3D Division(const float& value);
+	float DotProduct(const Vector3D& vector);
+
+	Vector3D operator+(const Vector3D& vector);
+	Vector3D operator-(const Vector3D& vector);
+	Vector3D operator*(const float& value);
+	Vector3D operator/(const float& value);
+	float operator*(const Vector3D& vector);
+
+
+
+
 };
 
