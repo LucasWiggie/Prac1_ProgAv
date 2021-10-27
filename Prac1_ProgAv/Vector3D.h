@@ -1,4 +1,5 @@
 #pragma once
+
 class Vector3D
 {
 private:
@@ -43,12 +44,8 @@ public:
 
 	Vector3D operator+(const Vector3D& vector);
 	Vector3D operator-(const Vector3D& vector);
-	Vector3D operator*(const float& value);
-	Vector3D operator/(const float& value);
+	Vector3D operator*(const float& vector);
+	Vector3D operator/(const float& vector);
 	float operator*(const Vector3D& vector);
-
-
-
-
 };
 
