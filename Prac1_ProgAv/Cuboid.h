@@ -7,13 +7,13 @@
 class Cuboid : public Solid
 {
 private:
-
 	float length;
 	float height;
 	float width;
 
 public: 
 	Cuboid() : Solid() {}
+	Cuboid(Vector3D coords, Color color, Vector3D orient, float length, float height, float width) : Solid(coords, color, orient), length(length), height(height), width(width) {}
 
 	inline float getLength() const {
 		return this->length;
